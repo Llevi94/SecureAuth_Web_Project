@@ -9,7 +9,7 @@ import GoogleStrategy from "passport-google-oauth2"; //google oauth
 import env from "dotenv"; //env file
 
 const app = express();
-const port = 3000;
+const port = process.env.SERVER_PORT || 3000;
 const saltRounds = 10; //encryption rounds
 env.config();
 
