@@ -199,7 +199,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID, //the client ID
       clientSecret: process.env.GOOGLE_CLIENT_SECRET, //the client secret
-      callbackURL: "http://localhost:3000/auth/google/welcome", //the url we choose on the console - where to go after login
+      callbackURL: "https://secureauth-ewdg.onrender.com/auth/google/welcome", //the url we choose on the console - where to go after login
       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo", // user information from the URL
       //callback function in the moment this success
     },
