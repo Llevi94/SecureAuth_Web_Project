@@ -57,9 +57,6 @@ app.get("/register", (req, res) => {
   res.render("register.ejs", { year: year });
 });
 
-app.get("/close", (req, res) => {
-  res.render("home.ejs", { year: year });
-});
 
 app.get("/logout", (req, res) => {
   req.logout(function (err) {
@@ -184,7 +181,9 @@ passport.use(
           }
         });
       } else {
-        return cb("User not found");
+        //return cb("User not found");
+        console.log("User not found");
+        res.redirect("/register");
       }
     } catch (err) {
       console.log(err);

@@ -2,7 +2,7 @@
   background: linear-gradient(-45deg, #000000, #001e55, #000000, #001a5a);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  min-height: 92vh;
+  min-height: 90vh;
   min-width: 100vw;
 }
 
