@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+
+
+  <div class="jumbotron centered">
+    <div class="home-container">
+      <img src="/images/authenticity.png" alt="Shield with a key symbolizing robust information security">
+      <h1 class="gruppo-regular">User Authentication Project</h1>
+      <p class="lead secure-text">This project ensures secure user registration through Email & Password authentication,
+        employing encryption, hashing and salting techniques for data protection.</p>
+      <p class="lead secure-text">Bcrypt for robust password hashing, and manage server-side sessions efficiently with
+        express-session. Passport integration facilitates streamlined authentication, including OAuth for secure and
+        easy third-party authentication.</p>
+      <hr>
+      <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+      <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+    </div>
+  </div>
+  <%- include('partials/footer', {year: year}) %>

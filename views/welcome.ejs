@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+
+  <div class="jumbotron text-center centered">
+    <div class="container welcome-container  ">
+      <img src="/images/authenticity.png" alt="image" />
+      <div class="waviy gruppo-regular">
+        <span style="--i:1">W</span>
+        <span style="--i:2">e</span>
+        <span style="--i:3">l</span>
+        <span style="--i:4">c</span>
+        <span style="--i:5">o</span>
+        <span style="--i:6">m</span>
+        <span style="--i:7">e</span>
+        <span style="--i:8">!</span>
+      </div>
+      <h2 class="lead secure-text">Your account's security is fortified by robust encryption algorithms,</h2>
+      <h2 class="lead secure-text">ensuring the highest level of protection for your login credentials.</h2>
+      <hr>
+      <a class="btn btn-outline-info btn-lg" href="/logout" role="button">Log Out</a>
+    </div>
+  </div>
+
+
+  <%- include('partials/footer', {year: year}) %>
+
+    <!-- #BringThemHomeNow herf: https://stories.bringthemhomenow.net/counter   -->
+    <div id="bthn" lang="en"></div>
+    <script>
+      (function () {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "https://bringthemhomenow.net/1.1.0/hostages-ticker.js";
+        script.setAttribute(
+          "integrity",
+          "sha384-DHuakkmS4DXvIW79Ttuqjvl95NepBRwfVGx6bmqBJVVwqsosq8hROrydHItKdsne"
+        );
+        script.setAttribute("crossorigin", "anonymous");
+        document.getElementsByTagName("head")[0].appendChild(script);
+      })();
+    </script>

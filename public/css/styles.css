@@ -1,0 +1,101 @@
+.jumbotron {
+  background: linear-gradient(-45deg, #000000, #001e55, #000000, #001a5a);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  min-height: 92vh;
+  min-width: 100vw;
+}
+
+body {
+  background-color: #E8ECEF;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+.welcome-container {
+  background-color: #ffffff;
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  border-radius: 30px;
+  padding: 10px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+.home-container {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.gruppo-regular {
+  font-family: "Gruppo", sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px #696969;
+}
+
+.secure-text {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.footer {
+  height: 1px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/**Background animation**/
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/**Welcome text animation**/
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  color: #000000;
+  animation: waviy 4s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waviy {
+
+  0%,
+  40%,
+  100% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(-20px)
+  }
+}
