@@ -181,9 +181,9 @@ passport.use(
           }
         });
       } else {
-        //return cb("User not found");
+        //return cb("User not found"); //problem!!!
         console.log("User not found");
-        res.redirect("/register");
+        window.location.href = "https://secureauth-ewdg.onrender.com/register";
       }
     } catch (err) {
       console.log(err);
