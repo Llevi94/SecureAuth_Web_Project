@@ -183,7 +183,7 @@ passport.use(
       } else {
         //return cb("User not found"); //problem!!!
         console.log("User not found");
-        window.location.href = "https://secureauth-ewdg.onrender.com/register";
+        return cb(null, false, 'Incorrect username or password.');
       }
     } catch (err) {
       console.log(err);
