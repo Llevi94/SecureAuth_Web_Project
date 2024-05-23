@@ -30,7 +30,7 @@ In the deployment strategy for the SecureAuth project, Render was chosen as the 
 <img src="https://miro.medium.com/max/600/1*YekyuOZGMw-kGOEqU4YPZg.jpeg" width="150" height="100">
 <img src="https://i0.wp.com/www.omnidefend.com/wp-content/uploads/2022/03/0Auth_Trans.png?fit=1014%2C676&ssl=1" width="150" height="100">
 <img src="https://www.freepnglogos.com/uploads/javascript/logo-html-5-css-javascript-source-code-for-the-taking-23.png" width="150" height="100">
-<img src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/89884/render-status-4b015255-e0cc-422c-943d-4f60b5f03094.png" width="200" height="100">
+<img src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/89884/render-status-4b015255-e0cc-422c-943d-4f60b5f03094.png" width="220" height="80">
 </p>
 ------------------
 
