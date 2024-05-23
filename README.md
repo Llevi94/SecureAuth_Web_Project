@@ -2,7 +2,7 @@
 
 SecureAuth is a full-stack project where users can register and log in using either email/password or Google's OAuth. The website employs advanced hashing algorithms to encrypt passwords, guaranteeing the highest level of security for user credentials.
 
-## Technologies:
+## Technologies
 
 - **PostgreSQL**: Utilized as the database to store user information securely.
 - **Express.js**: Provided a robust backend framework.
